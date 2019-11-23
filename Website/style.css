@@ -32,10 +32,10 @@ body {
 	text-align: center;
 }
 .header {
-	animation: transitionIn 1s;
+	animation: transitionIn 0.8s;
 }
 .body {
-	animation: transitionIn 1s;
+	animation: transitionIn 1.2s;
 	font-family: 'Chops chops';
 }
 a:link {

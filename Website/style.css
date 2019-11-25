@@ -6,7 +6,6 @@ body {
 	background-color: black;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	font-family: 'Chops chopS';
 }
 
 @keyframes transitionIn {
@@ -37,7 +36,6 @@ body {
 }
 .header {
 	animation: transitionIn 0.8s;
-	font-size: 150px;
 	font-family: 'Chops chopS';
 	color: #a21212;
 }

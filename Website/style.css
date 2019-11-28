@@ -20,12 +20,9 @@ body {
 	}
 }
 .abouthd {
-	animation: transitionIn 0.8s;
-	font-size: 50px;
+	animation: transitionIn 0.8s;;
 	color: #a21212;
 	font-family: 'Chops chopS';
-	text-align: center;
-	text-align: top;
 }
 .aboutbd {
 	animation: transitionIn 1.2s;

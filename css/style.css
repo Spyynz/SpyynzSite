@@ -20,7 +20,7 @@ body {
 	}
 }
 .abouthd {
-	animation: transitionIn 0.8s;;
+	animation: transitionIn 0.8s;
 	color: #a21212;
 	font-family: 'Chops chopS';
 }
@@ -28,6 +28,13 @@ body {
 	animation: transitionIn 1.2s;
 	font-family: 'Chops chopS';
 	color: #a21212;
+	font-size: 80px;
+	text-align: center;
+}
+.ctheader {
+	animation: transitionIn 0.8s;
+	font-family: 'Chops chopS';
+	color: #840808;
 	font-size: 80px;
 	text-align: center;
 }

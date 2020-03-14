@@ -2,6 +2,10 @@
   font-family: Chops chopS;
   src: url(ChopschopS.ttf);
 }
+@font-face {
+  font-family: Minecraftia;
+  src: url(Minecraftia-Regular.ttf);
+}
 body {
 	background-color: black;
 	overflow-x: hidden;

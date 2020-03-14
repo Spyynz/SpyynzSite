@@ -31,7 +31,7 @@ body {
 	font-size: 80px;
 	text-align: center;
 }
-.ctheader {
+#ctheader {
 	animation: transitionIn 0.8s;
 	font-family: 'Chops chopS';
 	color: #840808;

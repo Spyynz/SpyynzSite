@@ -7,16 +7,16 @@
 			body {
 				margin: 0;
 			}
-			#div1 {
+			#divBlack {
 				position: absolute;
-				background-color:black;
+				background-color: black;
 				width: 300px;
 				height: 300px;
 				
 			}
-			#div2 {
+			#divYellow {
 				position: absolute;
-				background-color:white;
+				background-color: yellow;
 				width: 300px;
 				height: 300px;
 			}
@@ -26,20 +26,22 @@
 		<button onclick="black()">
 				Black
 				</button>
-			<button onclick="white()">
+			<button onclick="yellow()">
 				White
 			</button>
-		<div id="div1">
+		<div id="divBlack">
 			
 		</div>
 		<script>
-			var div = document.getElementById("div1");
+			var div = document.getElementById("divBlack");
 			
 			function black() {
-				div.setAttribute("id", "div1");
+				div.setAttribute("id", "divBlack");
+			}
 				
-				function white() {
-					div.setAttribute("id", "div2");
+				function yellow() {
+					div.setAttribute("id", "divYellow");
+				}
 		</script>
 	</body>
 </html>

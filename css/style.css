@@ -6,6 +6,10 @@
   font-family: Minecraftia;
   src: url(Minecraftia-Regular.ttf);
 }
+@font-face {
+  font-family: SweetSensations;
+  src: url(Sweet Sensations Personal Use.ttf);
+}
 body {
 	background-color: black;
 	overflow-x: hidden;
@@ -73,6 +77,20 @@ a:visited {
 	transition: 0.7s;
 	border-right: solid red 1px;
 }
+.horionnav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	opacity: 0.5;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+	border-right: solid #35c2f2 4px;
+}
 .nav a {
 	display: block;
 	padding: 20px 30px;
@@ -80,11 +98,30 @@ a:visited {
 	text-decoration: none;
 	color: #a21212;
 }
+.horionnav a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #35c2f2;
+}
 .nav a:hover {
 	color: #fff;
 	transition: 0.4s;
 }
+}
+.horionnav a:hover {
+	color: #fff;
+	transition: 0.4s;
+}
 .nav .close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px
+}
+.horionnav .close {
 	position: absolute;
 	top: 0;
 	right: 22px;
@@ -96,6 +133,12 @@ a:visited {
 	font-size: 36px;
 }
 #content {
+	padding: 20px;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+}
+#horioncontent {
 	padding: 20px;
 	transition: margin-left 0.7s;
 	overflow: hidden;

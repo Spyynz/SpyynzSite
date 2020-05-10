@@ -1,0 +1,59 @@
+.eject - Removes the cheat from the game.
+
+.tp - Teleports to coordinates
+
+.bind - Binds modules to specific keys
+
+.relativeteleport - Teleports to coordinates relative to the Player
+
+.toggle - Toggles a module
+
+.playertp - Teleports to players coordinates
+
+.gamemode - Changes the local player's gamemode
+
+.friend - Add/Remove friendly players
+
+.unbind - unbind modules
+
+.enchant - Enchants items
+
+.help - Lists all commands
+
+.modules - Lists all modules
+
+.panic - Disables all Modules
+
+.hide - hide the mod
+
+.give - spawn items
+
+.bruh - bruh moment
+
+.server - Show information about the server you're playing on
+
+.setoffhand - Puts any item into offhand
+
+.coords - Prints your coordinates
+
+.say - Sends a chat message
+
+.spammer - Edit spammer delay/text
+
+.dupe - Duplicates the item in hand
+
+.damage - Damage yourself (relies on falldamage)
+
+.config - Load/save configs
+
+.setprefix - Set the prefix for horion commands
+
+.commandblockexploit - Search and open commands from far range!
+
+.namespoof - Spoof your name on realms/bds
+
+.nbt - read and write NBT tags to/from your clipboard (You have to point at an entity/block entity)
+
+.execute - Executes javascript code
+
+.script - Manage scripts

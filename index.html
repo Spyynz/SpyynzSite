@@ -17,6 +17,10 @@
     src="https://use.fontawesome.com/releases/v5.0.7/js/all.js">
   </script>
   <script>
+  function notReady()
+  {
+    alert('This page is not ready yet. Come again soon!')
+  }
   function openSlideMenu()
   {
   document.getElementById('menu').style.width = '250px';
@@ -64,11 +68,11 @@
       Home
     </a>
       <a
-      href="about/">
+      onclick='notReady()'>
       About
     </a>
       <a
-      href="contact/">
+      onclick='notReady()'>
       Contact
     </a>
     </div>

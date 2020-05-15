@@ -1,4 +1,6 @@
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+
+PLEASE READ EVERYTHING BELOW BEFORE GIVING UP (There might be a fix for your problem in a different section so be sure to read through the entirety of this document)
 
 Troubleshooting:
 
@@ -28,7 +30,8 @@ If your minecraft is crashing when you inject or join a world/server try these t
 -Log out of all other Windows accounts before injecting
 
 IF ALL ELSE FAILS, THERE IS HOPE!!! Someone got it to work by moving Windows Defender onto a separate drive and unplugging the drive (can be a USB stick or something similar). This will fully remove Windows Defender.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
 
 Common Questions:
 
@@ -58,7 +61,7 @@ In order to enchant an item use this command:
 You can also use .enchant all to give an item max enchantments or .enchant all <level> to get a custom level of all enchants
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 Credit:
 
@@ -72,4 +75,6 @@ Join my discord: https://discord.gg/SqdwBeQ
 
 Add me on Discord: Spyynz#9999 (might not work in the future due to loss of Discord Nitro)
 
-This README can be found at https://spyynz.org/dev/downloads/horionREADME.txt and will be updated (eventually)
+This README can be found at https://spyynz.org/dev/downloads/horionREADME_updated.txt and will be updated (eventually)
+
+--------------------------------------------------------------------------------------------------

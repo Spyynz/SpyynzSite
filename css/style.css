@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Chops chopS;
-  src: url(/fonts/ChopschopS.ttf);
+  font-family: ChopschopS;
+  src: url(/font/ChopschopS.ttf);
 }
 @font-face {
   font-family: Minecraftia;
@@ -34,26 +34,26 @@ body {
 }
 .aboutbd {
 	animation: transitionIn 1.2s;
-	font-family: ‘Chops chopS’;
+	font-family: ‘ChopschopS’;
 	color: #a21212;
 	font-size: 80px;
 	text-align: center;
 }
 #ctheader {
 	animation: transitionIn 0.8s;
-	font-family: ‘Chops chopS’;
+	font-family: ‘ChopschopS’;
 	color: #840808;
 	font-size: 80px;
 	text-align: center;
 }
 .header {
 	animation: transitionIn 0.8s;
-	font-family: ‘Chops chopS’;
+	font-family: ‘ChopschopS’;
 	color: #a21212;
 }
 .body {
 	animation: transitionIn 1.2s;
-	font-family: ‘Chops chops’;
+	font-family: ‘Chopschops’;
 }
 a:link {
 	text-decoration: none;

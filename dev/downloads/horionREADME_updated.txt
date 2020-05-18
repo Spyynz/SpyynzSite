@@ -36,16 +36,16 @@ IF ALL ELSE FAILS, THERE IS HOPE!!! Someone got it to work by moving Windows Def
 Common Questions:
 
 How much is beta?
-Beta is $5 a month with the Horion Patreon.
+Beta is $5 per month and can be purchased at https://patreon.com/horion
 
 What does beta have that public doesn't?
-Right now the biggest difference in the client is that beta has nbt load and write which allows you to modify block deta. For example we can spawn a shulker full of 32k items or a wither spawner.
+Right now, the biggest difference between Horion Public and Horion Beta is that Horion Beta has .nbt load and .nbt write. This allows you to modify block data. For example we can spawn a shulker full of 32k items or a wither spawner.
 However, beta also gets the client updates earlier than public, and it gives you access to the better channels on the discord which can provide more help for you.
 
-To open up the hack menu, hit the insert key. If you would like to change what key toggles what commands type this in chat:
+To open the module menu (clickgui), hit the insert key. If you would like to change what key toggles what commands type this in chat:
 .bind <module> <key>
 
-So if you want to change the hack menu from insert to another key such as tab, you would type .bind clickgui tab
+If you want to change the module menu bind from the insert key to another key such as tab, you would type .bind clickgui tab
 (Note: you can view all the modules with the .modules command)
 
 Common Give Commands:
@@ -58,7 +58,7 @@ Here is the full list of item ID's: https://gamepedia.cursecdn.com/minecraft_gam
 Enchantments:
 In order to enchant an item use this command:
 .enchant <enchantment id> <level>
-You can also use .enchant all to give an item max enchantments or .enchant all <level> to get a custom level of all enchants
+You can also use .enchant all to give an item all maximum enchantments (32767) or .enchant all <level> to get a custom level of all enchantments
 
 
 --------------------------------------------------------------------------------------------------
@@ -69,11 +69,15 @@ Visit my website: MAIN: https://spyynz.org | SPARE: http://spyynz.org (spyynz.or
 
 This was written and created by Spyynz and modified by Fry
 
-Follow my socials: @spyynz and modded by @prodfry
+Follow my socials: @spyynz
+
+This Horion README was edited by @prodfry
 
 Join my discord: https://discord.gg/SqdwBeQ
 
 Add me on Discord: Spyynz#9999 (might not work in the future due to loss of Discord Nitro)
+
+Add Fry on Discord: Fry#1414 (might not work in the future due to loss of Discord Nitro)
 
 This README can be found at https://spyynz.org/dev/downloads/horionREADME_updated.txt and will be updated (eventually)
 

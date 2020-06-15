@@ -1,0 +1,86 @@
+Note: For items with NBTs (items with {} after the command) when you use the command, copy from one backet to the other, and put a space at the end of the give command. You don't need to paste the part inside of the brackets,
+it reads it from your clipboard. However you need to put a space at the end of the command for it to add the NBT data.
+
+Common Items:
+Wither Skull: .give 397 64 1
+Enchanted Apples: .give 466 64
+Diamond Sword: .give 276 1
+Diamond Pickaxe: .give 278 1
+Diamond Helmet: .give 310 1
+Diamond Chestplate: .give 311 1
+Diamond Leggings: .give 312 1
+Diamond Boots: .give 313 1
+
+Custom Spawners [See Note at top for the NBTs to work]:
+Note: Overclocked, or OC means the spawner spawns whatever entity at a much higher rate than a normal spawner.
+OC Wither Spawner .give 52 64 0 {Delay:20s,DisplayEntityHeight:1.8f,DisplayEntityScale:1f,DisplayEntityWidth:0.8f,EntityIdentifier:"minecraft:Wither",MaxNearbyEntities:600s,MaxSpawnDelay:1s,MinSpawnDelay:0s,RequiredPlayerRange:500s,SpawnCount:20s,SpawnRange:50s,display:{Lore:["Hacked by Fry"],Name:"OC Wither Spawner"}}
+OC Wither Spawner .give 52 64 0 {Delay:20s,DisplayEntityHeight:1.8f,DisplayEntityScale:1f,DisplayEntityWidth:0.8f,EntityIdentifier:"minecraft:Player",MaxNearbyEntities:600s,MaxSpawnDelay:1s,MinSpawnDelay:0s,RequiredPlayerRange:500s,SpawnCount:20s,SpawnRange:50s,display:{Lore:["Hacked by Fry"],Name:"OC Player Spawner"}}
+Flight Duration 200 Rockets: .give 401 64 0 {Fireworks:{Explosions:[],Flight:-56b}}}
+
+Common Spawn Eggs [See Note at top for the NBTs to work]:
+Dragon Spawn Eggs: .give 383 64 53 {display:{Lore:["Â§lHacked By Fry"],Name:"Â§kÂ§3::Â§rDragon Spawn EggÂ§kÂ§3::"}}}
+Wither Spawn Eggs: .give 383 64 52 {display:{Lore:["Â§lHacked By Fry"],Name:""Â§kÂ§d::Â§rWither Spawn Eggs"Â§kÂ§d::"}}}
+TNT Spawn Eggs: .give 383 64 65 {display:{Lore:["Â§lHacked By Fry"],Name:"Â§kÂ§4::Â§rTNT Spawn EggsÂ§kÂ§4::"}}}
+End Crystal Spawn Eggs: .give 383 64 65 {display:{Lore:["Â§lHacked By Fry"],Name:"End Crystal Spawn Eggs"}}}
+Villager Spawn Eggs: .give 383 64 115
+
+
+Potions:
+ Regular Potion: .give 373 64 <pot id>
+ Splash Potion : .give 438 64 <pot id>
+
+Potion IDs:
+
+Hacked Pots [See Note at top for the NBTs to work]:
+Note: potions marked with * only work on Mineplex [See Note at top for the NBTs to work]
+God Potion:
+
+Helpful Pots:
+Fire Resistance (8 min) - 13
+Fire Resistance (3 min) - 12
+Healing - 21
+Healing II - 22
+Invisibility (8 min) - 8
+Invisibility (3 min) - 7
+Leaping (8 min) - 10
+Leaping II (1.5 min) - 11
+Leaping (3 min) - 9
+Night Vision (8 min) - 6
+Night Vision (3 min) - 5
+Regeneration (2 min) - 29
+Regeneration II (22 sec) - 30
+Regeneration (45) - 28
+Strength (8 min) - 32
+Strength II (1.5 min) - 33
+Strength (3 min) - 31
+Swiftness (8 min) - 15
+Swiftness II (1.5 min) - 16
+Swiftness (3 min) - 14
+Water Breathing (3 min) - 19
+Water Breathing (8 min) - 20
+Slow Falling (4 min) - 41
+Slow Falling (1.5 min) - 40
+Turtle Master (40 sec) - 38
+Turtle Master II (20 sec) - 39
+Turtle Master (20 sec) - 37
+
+Harmful Pots:
+Decay II - 36
+Harming II - 24
+Harming - 23
+Poison (2 min) - 26
+Poison II (22 sec) - 27
+Poison (45 sec) - 25
+Slowness (4 min) - 18
+Slowness (1.5 min) - 17
+Weakness (1.5 min) - 35
+Weakness (4 min) - 34
+
+Useless Pots (crafting):
+Akward - 4
+Long Mundane - 2
+Mundane - 1
+Water Bottle - 42
+Thick - 3
+
+Created by Fry

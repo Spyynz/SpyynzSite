@@ -1,3 +1,4 @@
+Horion Troubleshooting by Spyynz#9654
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Troubleshooting:
@@ -61,23 +62,6 @@ The teleport command ONLY WORKS IN RENDER DISTANCE
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Updates:
-
-June 23, 2020;
-NOTE:
-Horion is not yet compatible with the brand new 1.16 Minecraft update.
-Please never ask for an "eta" in the Discord. The devs are working hard to make all modules functional.
-Just be patient.
-1.16 compatibility will be out for beta in a few days.
-1.16 compatibility will be out for public in a few weeks.
-Thanks for understanding!
-(Posted by @spyynz)
-
-June 26, 2020;
-Horion 1.16 Compatibility has just released to Horion Beta.
-The public release should happen in 1-2 weeks from today.
-Please stay patient :)
-(Posted by @spyynz)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Credit:
@@ -91,6 +75,6 @@ Follow our socials: @spyynz & @prodfry
 Join Spyynz's discord: https://discord.gg/SqdwBeQ
 Join Fry's discord: https://discord.gg/usKwxca
 
-Add me on Discord: Spyynz#8614 (might not work in the future due to loss of Discord Nitro. If this is the case, join my server and add me there)
+Add me on Discord: Spyynz#9654
 
 This README can be found at https://spyynz.org/dev/downloads/horionREADME.txt and will be updated frequently! Thanks for stopping by :)

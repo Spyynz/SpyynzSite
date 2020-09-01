@@ -1,2 +1,0 @@
-###Spyynz
-I develop bots :)

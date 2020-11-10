@@ -25,6 +25,7 @@ defines scripts external file
   </script>
     
   <script>
+    var open = false
   function notReady()
   {
     alert('This page is not ready yet. Come again soon!')
@@ -33,27 +34,24 @@ defines scripts external file
   {
 document.getElementById('menu').style.width = '250px';
   document.getElementById('content').style.marginLeft = '250px';
+    open = true
   }
   function closeSlideMenu()
   {
 document.getElementById('menu').style.width = '0';
   document.getElementById('content').style.marginLeft = '0';
+    open = false
 }
-  </script>
-    <script>
-      function openCloseButton()
+    function usefulButton()
       {
-        var num = 1
-        if (num == 1) {
+        if (open == false) {
           openSlideMenu()
-          var num = 2
         }
-        else {
+        else if (open == true) {
           closeSlideMenu()
-          var num = 1
         }
       }
-    </script>
+  </script>
     <title>
       Home
     </title>
@@ -68,7 +66,7 @@ document.getElementById('menu').style.width = '0';
     class="slide">
       <a
       href="#"
-      onclick="openCloseButton()">
+      onclick="usefulButton()">
         <i
         class="fas fa-bars">
       </i>

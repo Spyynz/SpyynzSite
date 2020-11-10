@@ -30,30 +30,30 @@ body {
 .abouthd {
 	animation: transitionIn 0.8s;
 	color: #a21212;
-	font-family: ‘Chops chopS’;
+	font-family: 'Chops chopS';
 }
 .aboutbd {
 	animation: transitionIn 1.2s;
-	font-family: ‘ChopschopS’;
+	font-family: 'Chops chopS';
 	color: #a21212;
 	font-size: 80px;
 	text-align: center;
 }
 #ctheader {
 	animation: transitionIn 0.8s;
-	font-family: ‘ChopschopS’;
+	font-family: 'Chops chopS';
 	color: #840808;
 	font-size: 80px;
 	text-align: center;
 }
 .header {
 	animation: transitionIn 0.8s;
-	font-family: ‘ChopschopS’;
+	font-family: 'Chops chopS';
 	color: #a21212;
 }
 .body {
 	animation: transitionIn 1.2s;
-	font-family: ‘Chopschops’;
+	font-family: 'Chops chops';
 }
 a:link {
 	text-decoration: none;
@@ -76,6 +76,7 @@ a:visited {
 	padding-top: 60px;
 	transition: 0.7s;
 	border-right: solid red 1px;
+}
 .nav a {
 	display: block;
 	padding: 20px 30px;

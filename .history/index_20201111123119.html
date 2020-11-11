@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @font-face {
+  font-family: ChopschopS;
+  src: url(font/ChopschopS.ttf);
+}
+    </style>
+    <link
+    href="https://www.dafont.com/chops-chops.font">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="/css/style.css">
+
+    <!--
+      Links and Metas for visual effects
+    -->
+    <link rel="icon" href="/img/spy.png" />
+    <link rel="apple-touch-icon" sizes="128x128" href="/img/spy.png" />
+    
+    <meta name="apple-mobile-web-app-title" content="Spyynz" />
+
+    <script
+    defer
+    src="https://use.fontawesome.com/releases/v5.0.7/js/all.js">
+  </script>
+    <!--
+defines scripts external file
+-->
+  <script src="/js/scripts.js">
+  </script>
+    
+  <script>
+    var open = false
+  function notReady()
+  {
+    alert('This page is not ready yet. Come again soon!')
+  }
+  function openSlideMenu()
+  {
+document.getElementById('menu').style.width = '250px';
+  document.getElementById('content').style.marginLeft = '250px';
+    open = true
+  }
+  function closeSlideMenu()
+  {
+document.getElementById('menu').style.width = '0';
+  document.getElementById('content').style.marginLeft = '0';
+    open = false
+}
+    function usefulButton()
+      {
+        if (open == false) {
+          openSlideMenu()
+        }
+        else if (open == true) {
+          closeSlideMenu()
+        }
+      }
+  </script>
+    <title>
+      Home
+    </title>
+  </head>
+  <body>
+    <div
+    id="content">
+    <span
+    class="slide">
+      <a
+      href="#"
+      onclick="usefulButton()">
+        <i
+        class="fas fa-bars">
+      </i>
+      </a>
+    </span>
+    <div
+    id="menu"
+    class="nav">
+      <a
+      href="#">
+      Home
+    </a>
+      <a
+      href="#"
+      onclick="notReady()">
+      About
+    </a>
+      <a
+      href="#"
+      onclick="notReady()">
+      Contact
+    </a>
+    </div>
+  </div>
+  <div
+  id="header"
+  class="header">
+  <p
+  align="center"
+     style="
+            font-family: 'Chops chopS';
+            font-size: 50px;
+            vertical-align: 300px;
+            ">
+  <a
+  target="_blank"
+  href="https://www.youtube.com/spyynz?sub_confirmation=1">
+  <img
+  src="/img/spyynzfull.png"
+  title="Spyynz"/>
+  </a>
+  </p>
+  <hr
+  size="15"
+  width="75%"
+  color="#840808"
+  align="center">
+</div>
+
+  <div
+  id="body"
+  class="body"
+       style="padding-top: 100px;
+              font-family: 'ChopschopS';">
+  <p
+  style="
+  color: #840808;
+  font-size: 70px;
+  text-align: center">
+  <a
+    target="_blank"
+    href="https://twitter.com/spyynz">
+    TwitteR
+  </a>
+       
+  <a
+  target="_blank"
+  href="https://instagram.com/spyynz">
+  InstagraM
+</a>
+       
+<a
+target="_blank"
+href="https://twitch.tv/spyynz">
+TwitcH
+</a>
+       
+<a
+target="_blank"
+href="https://teespring.com/spyynz">
+MerchandisE
+</a>
+</p>
+</div>
+
+<!--
+clear blank space around header
+
+
+add social media in top left corner
+slide the icons out and make them link to the media
+
+
+> i remember i was 8 or smthn and got banned from a server
+because of "idiot" and i thought it said "idot" and i was so confused
+@Spyynz#9999
+
+add me @spyynz on most and discord ^^^
+-->
+  </body>
+</html>
